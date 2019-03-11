@@ -5,14 +5,20 @@
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### serve with hot reload at localhost:3000
 ```
-npm run serve
+$ npm run dev
 ```
 
-### Compiles and minifies for production
+### build for production and launch server
 ```
-npm run build
+$ npm run build
+$ npm start
+```
+
+### generate static project
+```
+$ npm run generate
 ```
 
 ### Run your tests
@@ -27,3 +33,5 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+For detailed explanation on how things work, check out the [Nuxt.js](https://github.com/nuxt/nuxt.js) and [Vuetify.js](https://vuetifyjs.com/) documentation.
