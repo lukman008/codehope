@@ -4,8 +4,8 @@
 			<v-card-title>
        			&copy;2019 — <strong>Code Hope.</strong>
         		<v-spacer></v-spacer>
-				<v-btn v-for="icon in icons" :key="icon" class="mx-3 white--text" icon>
-					<v-icon size="24px">{{ icon }}</v-icon>
+				<v-btn v-for="icon in icons" target="_blank" :href="icon.url" :key="icon.icon" class="mx-3 white--text" icon>
+					<v-icon size="24px">{{ icon.icon }}</v-icon>
 				</v-btn>
 			</v-card-title>
 		</v-card>
@@ -17,10 +17,18 @@ export default {
 	data () {
 		return {
 			icons: [
-				'mdi-facebook',
-				'mdi-twitter',
-				'mdi-linkedin',
-				'mdi--instagram'
+				{
+					icon: 'mdi-twitter',
+					url: "https://twitter.com/thecodehope"
+				},
+				{
+					icon: 'mdi-facebook',
+					url:"https://facebook.com/thecodehope"
+		},{
+			icon: 'mdi-instagram',
+			url:"https://www.instagram.com/thecodehope/"
+		}
+				
 			]
 		}
 	}

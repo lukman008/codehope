@@ -3,7 +3,10 @@ module.exports = {
      ** Headers of the page
      */
     head: {
-		title: "Code Hope",
+        title: "Code Hope",
+        htmlAttrs: {
+            lang: 'en',
+          },
         meta: [
             { charset: "utf-8" },
             {
