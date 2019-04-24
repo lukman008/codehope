@@ -22,5 +22,9 @@ let theme = {
 
 Vue.use(Vuetify, {
   iconfont: "mdi",
-  theme
+  theme,
+  lang: {
+    
+    current: 'en'
+  }
 });
