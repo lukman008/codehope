@@ -31,7 +31,6 @@
                                 <div v-html="itm.description"> </div>
                             </div>
                             </v-card-title>
-
                             <v-card-actions>
                               <v-spacer></v-spacer>
                             <v-btn target="_blank" :href="itm.url" flat color="orange">REACH OUT</v-btn>
@@ -55,6 +54,7 @@ import fld from "@/assets/programmer.svg";
 export default {
   data() {
     return {
+
       inv,
       int,
       positions: [
