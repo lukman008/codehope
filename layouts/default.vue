@@ -1,7 +1,7 @@
 <template>
 	<v-app dark color="grey darken-4">
 		<Toolbar />
-		<v-content>
+		<v-content style="margin-top: -64px">
 			<nuxt />
 		</v-content>
 		<Footer />

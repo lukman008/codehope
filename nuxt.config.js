@@ -63,7 +63,7 @@ module.exports = {
             // }
         }
 	},
-	// serverMiddleware: [
-	// 	'~/server/index.js',
-	// ]
+	serverMiddleware: [
+		'~/server/index.js',
+	]
 };

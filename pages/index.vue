@@ -94,7 +94,7 @@
         <v-layout row wrap>
           <v-flex xs12 mt-4>
             <h2
-              class="display-1 font-weight-bold text-uppercase text-xs-center my-3"
+              class="display-1 font-weight-bold text-uppercase text-xs-center mt-3"
             >Code Hope Rural Labs</h2>
           </v-flex>
 
@@ -190,7 +190,7 @@
         </v-parallax>
       </v-flex>
     </v-layout>
-    <v-dialog v-model="get_involved" fullscreen>
+    <!-- <v-dialog v-model="get_involved" fullscreen>
       <v-app dark>
         <v-toolbar class="elevation-0" dark color="primary">
           <v-spacer></v-spacer>
@@ -228,7 +228,7 @@
           </v-container>
         </v-content>
       </v-app>
-    </v-dialog>
+    </v-dialog> -->
   </div>
 </template>
 
@@ -276,6 +276,7 @@ export default {
 `,
           image: nwt,
           url: "http://nigerianwomentechsters.org"
+          // url: "/projects/nwt"
         },
         {
           title: "AUGMA ROADSHOW",
