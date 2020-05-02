@@ -82,12 +82,12 @@
 								</v-img>
 							</v-flex>
 							<v-flex xs12>
-								<p class="px-5 mt-1 text-xs-justify">Through diverse projects and partnerships, we provide kids, women and youth with the opportunities to acquire technology skills on topics including, Web development, Mobile app development, Digital Marketing, Graphics Design, Games Development and Embedded systems/robotics development.
+								<p class="px-5 mt-1 text-xs-justify">Codehope is an initiative of Dev's District Nigeria which through diverse initiatives and partnerships, provide kids, women, and youth in underserved communities with the opportunities to acquire technology skills on topics including, Web development, Mobile app development, Digital Marketing, Graphics Design, Games Development and Embedded systems/robotics development.
 <br>
-The Jobs available today will no longer be available few years from now as technology continues to change the way we interact with ourselves and our environment. We are bridging the skills gap by ensuring kids, youths and women in underserved and rural communities are equipped with skills necessary to access the technology opportunities available today and the ones that will dominate the future, while also encouraging them to apply the skills to solve problems around them. 
+The Jobs available today will no longer be available few years from now as technology continues to change the way we interact with ourselves and our environment. We are bridging the skills gap by ensuring kids, youths and women in underserved and rural communities are equipped with skills necessary to access the technology opportunities available today and the ones that will dominate the future, while also encouraging them to apply the skills to solve problems around them.
 
 </p>
-							
+
 							</v-flex>
 						</v-layout>
 					</v-flex>
@@ -121,7 +121,7 @@ The Jobs available today will no longer be available few years from now as techn
 							</v-img>
 							<v-card-text>
 								<p class="ma-0" >
-									Code Hope Labs is our Long term,Major Program. Through the program, we equip rural communities  (usually via schools located in the community) with a computer lab and provide trainers which teach the students basic computing, and general coding skills. Once the basic classes are completed, they are trained on Web and mobile apps development, and are also introduced to robotics and game development. So far, In partnership with the EquipAKschool Initiative, we have equipped two schools in communities in Ondo and Ekiti States with over 80 computers with about 1500 students being impacted. We believe this kids deserve an opportunity to acquire this skills so they can access the opportunities the future is set to bring. 
+									Code Hope Labs is our Long term,Major Program. Through the program, we equip rural communities  (usually via schools located in the community) with a computer lab and provide trainers which teach the students basic computing, and general coding skills. Once the basic classes are completed, they are trained on Web and mobile apps development, and are also introduced to robotics and game development. So far, In partnership with the EquipAKschool Initiative, we have equipped two schools in communities in Ondo and Ekiti States with over 80 computers with about 1500 students being impacted. We believe this kids deserve an opportunity to acquire this skills so they can access the opportunities the future is set to bring.
 										</p>
 							</v-card-text>
 							<v-card-actions>
@@ -209,14 +209,14 @@ The Jobs available today will no longer be available few years from now as techn
 				  <v-toolbar class="elevation-0" dark color="primary">
 										 <v-spacer></v-spacer>
 										 	<v-btn @click="get_involved=false" icon large> <v-icon>mdi-close</v-icon>  </v-btn>
-										
+
 									 </v-toolbar>
 				 <v-content>
 					 <v-container fluid fill-height>
 						 <v-layout align-center justify-center>
 							 <v-flex xs12 sm8 md4>
 								 <v-card color="transparent" class="elevation-0">
-									
+
 									 <v-card-text style="text-align:center;">
 										<v-btn style="text-transform:none;text-decoration: underline;" tarket="_blank" href="mailto:hello@thecodehope.org?subject=CODE HOPE VOLUNTEER&body=Hi I want to volunteer for code hope" flat class="display-3 font-weight-light" >Volunteer</v-btn>
 										<br/><br><br/>
@@ -234,19 +234,19 @@ The Jobs available today will no longer be available few years from now as techn
 </template>
 
 <script>
-import bg from "@/assets/slider.png";
-import pg from "@/assets/programmer.svg";
-import img from "@/assets/5.jpg";
-import augma from "@/assets/3.jpg";
-import kids from "@/assets/kids.jpg";
-import nwt from "@/assets/nwt.jpg";
-import wc3 from "@/assets/wc3.jpg";
-import acw from "@/assets/acw.jpg";
-import hoc from "@/assets/hoc.jpg";
-import img2 from "@/assets/4.jpg";
-import parallax from "@/assets/parallax.png";
+import bg from '@/assets/slider.png'
+import pg from '@/assets/programmer.svg'
+import img from '@/assets/5.jpg'
+import augma from '@/assets/3.jpg'
+import kids from '@/assets/kids.jpg'
+import nwt from '@/assets/nwt.jpg'
+import wc3 from '@/assets/wc3.jpg'
+import acw from '@/assets/acw.jpg'
+import hoc from '@/assets/hoc.jpg'
+import img2 from '@/assets/4.jpg'
+import parallax from '@/assets/parallax.png'
 export default {
-  data() {
+  data () {
     return {
       bg,
       pg,
@@ -262,70 +262,70 @@ export default {
       taglines: [
         {
           title: "WE  ARE  SHAPING  AFRICA'S  FUTURE . . .",
-          subheading: "We are providing, kids, youths and women in rural and underserved communities with opportunities to acquire technology skills."
+          subheading: 'We are providing, kids, youths and women in rural and underserved communities with opportunities to acquire technology skills.'
         },
         {
-          title: "WE ARE BUILDING TOMORROW, TODAY"
-        },
+          title: 'WE ARE BUILDING TOMORROW, TODAY'
+        }
       ],
       programs: [
 		  {
-			  title: "NWT",
+			  title: 'NWT',
 			  description: `NWT is an initiative of Tech4Dev, funded by Microsoft. It is an experiential learning program aimed at building digital literacy especially coding and analytical skills in young women, exposing them to available employment and entrepreneurship opportunities within the technology space. We serve as an Implementation Partner for the Initiative, developing the training curriculum and providing trainers. Through this Initiative, we have been able to train over 2400 Women and girls across 12 states  on Web development, Mobile development, Games development and embedded systems.
 `,
-			image: nwt,
-			url: "http://nigerianwomentechsters.org"
+          image: nwt,
+          url: 'http://nigerianwomentechsters.org'
 
 		  },
         {
-          title: "AUGMA ROADSHOW",
+          title: 'AUGMA ROADSHOW',
           image: augma,
           description: `As part of our initiative to help educate young students  in primary and secondary schools all over West Africa, Augma Roadshow is an ongoing roadshow to visit schools and teach students several important topics in STEM using Augmented reality.
 						<br><br>			We aim to teach over 800,000 students on STEM subjects using Augmented Reality, and make teachers and tutors adopt AR as a teaching mechanism.
-								<br><br>	<br><br>` ,
-		url:"http://augma.org"
-		},
-		{
-			title: "AFRICA CODE WEEK",
-			image:acw,
-			url:"https://africacodeweek.org/",
-			description: `<p style='text-align:center;'><strong >READ, WRITE, COUNT, CODE</strong> </p>
+								<br><br>	<br><br>`,
+          url: 'http://augma.org'
+        },
+        {
+          title: 'AFRICA CODE WEEK',
+          image: acw,
+          url: 'https://africacodeweek.org/',
+          description: `<p style='text-align:center;'><strong >READ, WRITE, COUNT, CODE</strong> </p>
 			Africa code week has been a very important opportunity for us to reach out to kids in rural and underserved communities.<br>	<br> Supported by Google, we have been organizing African code week events since 2017 and had trained over 2000 kids and youths across 3 states including Edo, Ekiti and Ondo as at the end of the 2018 edition. 		<br><br>	<br>	`
 
-		},{
-			title: "Code Outreach",
-			image: kids,
-			url: "http://devsdistrictnigeria.com/events/worldchangers13/",
-			description: `We partnered the Christ Embassy Inner City Mission for Children to equip 13-15 year-olds with ICT skills.<br><br> <strong>Can Code? Can Change the world!</strong><br>  The event was aimed to:
+        }, {
+          title: 'Code Outreach',
+          image: kids,
+          url: 'http://devsdistrictnigeria.com/events/worldchangers13/',
+          description: `We partnered the Christ Embassy Inner City Mission for Children to equip 13-15 year-olds with ICT skills.<br><br> <strong>Can Code? Can Change the world!</strong><br>  The event was aimed to:
 			<ul>
 				<ul dir="ltr"><li>Collaborative with teachers and peers, unlimited by proximity</li><li>Agile and supportive when participants need extra help</li><li>Challenging but achievable, with opportunities to become expert in an area of interest</li></ul>
 			</ul>
 			`
-		},
-		{
-			title: "HOUR OF CODE",
-			image:hoc,
-			url:"https://hourofcode.com/",
-			description:`<strong>What will you create?</strong><br>
+        },
+        {
+          title: 'HOUR OF CODE',
+          image: hoc,
+          url: 'https://hourofcode.com/',
+          description: `<strong>What will you create?</strong><br>
 			The Hour of Code started as a one-hour introduction to computer science, designed to demystify "code", to show that anybody can learn the basics, and to broaden participation in the field of computer science. <br><br> It has since become a worldwide effort to celebrate computer science, starting with 1-hour coding activities but expanding to all sorts of community efforts`
-		},
-		{
-			title:"KIDS CAN CODE",
-			image: wc3,
-			url:"http://devsdistrictnigeria.com",
-			description: `Think your kids are too young to learn to code? Think again. <br> Four- and five-year-olds can learn the foundations of coding and computer commands before they can even write and spell words. Older kids can learn to code through classes, mentors and online tutorials (We have trained an enormous number of kids on the basics of coding).\n Our Kids Can Code program is aimed at teaching building ICT proteges by imbibing kids with digital skills at a very young age. <br>`
-		}
+        },
+        {
+          title: 'KIDS CAN CODE',
+          image: wc3,
+          url: 'http://devsdistrictnigeria.com',
+          description: `Think your kids are too young to learn to code? Think again. <br> Four- and five-year-olds can learn the foundations of coding and computer commands before they can even write and spell words. Older kids can learn to code through classes, mentors and online tutorials (We have trained an enormous number of kids on the basics of coding).\n Our Kids Can Code program is aimed at teaching building ICT proteges by imbibing kids with digital skills at a very young age. <br>`
+        }
       ],
       showcaseItems: [
-        { name: "Schools Visited", value: "87", icon: "mdi-school" },
-        { name: "Kids Trained", value: "5 K", icon: "mdi-human-male-female" },
-        { name: "ICT Labs Equiped", value: "5", icon: "mdi-bank" },
-        { name: "Proud Volunteers", value: "25", icon: "mdi-emoticon" }
+        { name: 'Schools Visited', value: '87', icon: 'mdi-school' },
+        { name: 'Kids Trained', value: '5 K', icon: 'mdi-human-male-female' },
+        { name: 'ICT Labs Equiped', value: '5', icon: 'mdi-bank' },
+        { name: 'Proud Volunteers', value: '25', icon: 'mdi-emoticon' }
         // for design purposes, keep this has 4
       ]
-    };
+    }
   }
-};
+}
 </script>
 
 <style>

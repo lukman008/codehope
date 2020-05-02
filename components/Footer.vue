@@ -2,7 +2,7 @@
 	<v-footer app absolute dark height="auto">
 		<v-card tile dark class="flex white--text">
 			<v-card-title>
-       			&copy;2019 — <strong>Code Hope.</strong>
+       			&copy;2020 — <strong style="padding: 5px;"> Code Hope, </strong><i> An Initiative of Dev’s District Nigeria.</i>
         		<v-spacer></v-spacer>
 				<v-btn v-for="icon in icons" target="_blank" :href="icon.url" :key="icon.icon" class="mx-3 white--text" icon>
 					<v-icon size="24px">{{ icon.icon }}</v-icon>
@@ -17,7 +17,7 @@ export default {
 	data () {
 		return {
 			icons: [
-				{
+				{ 
 					icon: 'mdi-twitter',
 					url: "https://twitter.com/thecodehope"
 				},
